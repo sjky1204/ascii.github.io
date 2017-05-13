@@ -1,0 +1,11 @@
+<form class='form'>
+	<h4 class='a1'>Likelion 5th</h4>
+	<h1>Asciify Complete!</h1>
+	<p>Here's Your COOL Ascii Art</p>
+	<pre class="pre"><%= @output1 %></pre>
+	<pre class="pre"><%= @output2 %></pre>
+	<pre class="pre"><%= @output3 %></pre>
+<% @qall.each do |db| %>
+    <p><%= db.font %> / <%= db.name %> / <%= db.email %> / <%= db.pnum %></p>
+<% end %>
+</form>

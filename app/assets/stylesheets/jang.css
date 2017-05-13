@@ -1,0 +1,27 @@
+* {
+	text-align: center;
+	background-color: #353535;
+	color: white;
+}
+
+.form {
+	padding: 20px 40px 20px 40px;
+}
+
+.a1 {
+	text-align: left;
+}
+
+.bg-faded {
+	color: #353535;
+	text-align: left;
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	padding-left: 10px;
+}
+
+.pre {
+	background-color: white;
+	border-radius: 10px;
+}
